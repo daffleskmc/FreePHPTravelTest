@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM App Test Automation Test Suite]">
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.phptravel.testcases.RegisterPageTest">
+        <methods>
+          <include name="createNewUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.phptravel.testcases.RegisterPageTest -->
+      <class name="com.phptravel.testcases.DemoHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="clickLogin"/>
+        </methods>
+      </class> <!-- com.phptravel.testcases.DemoHomePageTest -->
+      <class name="com.phptravel.testcases.LoginPageTest">
+        <methods>
+          <include name="clickToRegisterPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.phptravel.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Free CRM App Test Automation Test Suite] -->
